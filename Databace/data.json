@@ -1,0 +1,322 @@
+{
+  "Straters": [
+    {
+      "id": "0.1",
+      "name": "Frince Frice",
+      "price": 130,
+      "Quntity": 1,
+      "rating": 4.5,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/French Frice.webp"
+    },
+    {
+      "id": "0.2",
+      "name": "Cheese Loaded Frice",
+      "price": 80,
+      "Quntity": 1,
+      "rating": 4.1,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/cheese loadded frice.webp"
+    },
+    {
+      "id": "0.3",
+      "name": "Veg Roll",
+      "price": 90,
+      "Quntity": 1,
+      "rating": 4.7,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/Veg roll.jpg"
+    },
+    {
+      "id": "0.4",
+      "name": "Chicken Roll",
+      "price": 120,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/Chicken Roll.jpeg"
+    },
+    {
+      "id": "0.5",
+      "name": "Chicken Nuggets",
+      "price": 160,
+      "Quntity": 1,
+      "rating": 4.2,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/Nuggets.jpeg"
+    },
+    {
+      "id": "0.6",
+      "name": "Chicken Popcorn",
+      "price": 200,
+      "Quntity": 1,
+      "rating": 4.8,
+      "description": "Starters are devices that control the use of electrical power to equipment. As the name implies, starters “start” motors.",
+      "amount": 0,
+      "img": "../Images/Straters_Image/Popcorn.jpeg"
+    }
+  ],
+  "Pizza": [
+    {
+      "id": "1.1",
+      "name": "Veg",
+      "price": 70,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/Veg.avif"
+    },
+    {
+      "id": "1.2",
+      "name": "Corn",
+      "price": 90,
+      "Quntity": 1,
+      "rating": 4.7,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/Slide-pizza.jpeg"
+    },
+    {
+      "id": "1.3",
+      "name": "Mashroom",
+      "price": 100,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/piz3.jpg"
+    },
+    {
+      "id": "1.4",
+      "name": "Cheese",
+      "price": 150,
+      "Quntity": 1,
+      "rating": 4.5,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/piz4.jpeg"
+    },
+    {
+      "id": "1.5",
+      "name": "Paste",
+      "price": 149,
+      "Quntity": 1,
+      "rating": 4.5,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/piz5.jpeg"
+    },
+    {
+      "id": "1.6",
+      "name": "Chicken",
+      "price": 160,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/chicken-pizza.jpeg"
+    },
+    {
+      "id": "1.7",
+      "name": "Pepperoni",
+      "price": 100,
+      "Quntity": 1,
+      "rating": 4.1,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/Pepperoni.jpeg"
+    },
+    {
+      "id": "1.8",
+      "name": "Double Cheese",
+      "price": 200,
+      "Quntity": 1,
+      "rating": 4,
+      "description": "Pizza is a popular, flat, round, baked dish of Italian origin, typically made with bread dough, tomato sauce, cheese, and various toppings.",
+      "amount": 0,
+      "img": "../Images/Pizza_Image/double Chesse and Chicken Pizza.avif"
+    }
+  ],
+  "Burger": [
+    {
+      "id": "2",
+      "name": "Veg Burger",
+      "price": 70,
+      "Quntity": 1,
+      "rating": 4.1,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/Veg-burger.avif"
+    },
+    {
+      "id": "2.1",
+      "name": "VegCheese Burger",
+      "price": 90,
+      "Quntity": 1,
+      "rating": 4.1,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/VEGCheese.webp"
+    },
+    {
+      "id": "2.3",
+      "name": "SplMayoVeg Burger",
+      "price": 80,
+      "Quntity": 1,
+      "rating": 4.1,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/VegMoyo.avif"
+    },
+    {
+      "id": "2.4",
+      "name": "Chicken Burger",
+      "price": 150,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/Chicken.png"
+    },
+    {
+      "id": "2.5",
+      "name": "ThndooriMayoChicken Burger",
+      "price": 170,
+      "Quntity": 1,
+      "rating": 4.2,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/Chicken-Moyo.webp"
+    },
+    {
+      "id": "2.6",
+      "name": "Chicken Cheese Burger",
+      "price": 200,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Burger King Corporation is an American multinational chain of hamburger fast food restaurants",
+      "amount": 0,
+      "img": "../Images/Burger_Image/Chickenchesse.jpeg"
+    }
+  ],
+  "Sandwhich": [
+    {
+      "id": "3",
+      "name": "Veg Sandwich",
+      "price": 60,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Veg-sandwich.jpg"
+    },
+    {
+      "id": "3.1",
+      "name": "Corn Sandwich",
+      "price": 80,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Corn sandwich.jpeg"
+    },
+    {
+      "id": "3.2",
+      "name": "Panner Sandwich",
+      "price": 90,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Panner-Sandwich.webp"
+    },
+    {
+      "id": "3.3",
+      "name": "Cheese Sandwich",
+      "price": 110,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Cheese- Sandwich.avif"
+    },
+    {
+      "id": "3.4",
+      "name": "ChickenCheese Sandwich",
+      "price": 199,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Chicken cheese SandWich.jpg"
+    },
+    {
+      "id": "3.5",
+      "name": "Mushroom Sandwich",
+      "price": 129,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/Mushroom s.jpg"
+    },
+    {
+      "id": "3.6",
+      "name": "VegcheeseSandwich",
+      "price": 100,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling .",
+      "amount": 0,
+      "img": "../Images/Sandwhich_Image/VegcheeseSandwich.jpg"
+    }
+  ],
+  "Momos": [
+    {
+      "name": "Veg Momos",
+      "price": 80,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Momos are a popular street food in northern parts of India. These are also known as Dim Sum and are basically.",
+      "amount": 0,
+      "img": "../Images/Momos_Image/Veg-momos.webp",
+      "id": "ed6f"
+    },
+    {
+      "name": "Panner Momos",
+      "price": 90,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Momos are a popular street food in northern parts of India. These are also known as Dim Sum and are basically.",
+      "amount": 0,
+      "img": "../Images/Momos_Image/Panner Momos.jpg",
+      "id": "40cb"
+    },
+    {
+      "name": "Cheese Momos",
+      "price": 100,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Momos are a popular street food in northern parts of India. These are also known as Dim Sum and are basically.",
+      "amount": 0,
+      "img": "../Images/Momos_Image/Cheese momos.webp",
+      "id": "f97f"
+    },
+    {
+      "name": "Chicken Momos",
+      "price": 150,
+      "Quntity": 1,
+      "rating": 4.9,
+      "description": "Momos are a popular street food in northern parts of India. These are also known as Dim Sum and are basically.",
+      "amount": 0,
+      "img": "../Images/Momos_Image/Chicken Momos.jpg",
+      "id": "3c99"
+    }
+  ]
+}
