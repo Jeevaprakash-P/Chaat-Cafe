@@ -106,11 +106,9 @@ let Amount = createSlice({
     initialState: JSON.parse(localStorage.getItem("amount")),
     reducers: {
         Addamount(state, action) {
-            localStorage.setItem("amount", JSON.stringify(state += action.payload))
             return state += action.payload
         },
         LessAmount(state, action) {
-            localStorage.setItem("amount", JSON.stringify(state -= action.payload))
             return state -= action.payload
         },
         Pricevaluechnage(state, action) {
@@ -119,7 +117,6 @@ let Amount = createSlice({
                 return element.id === id ? element.price * value : element.price * element.Quntity
             })
             let Total = amount.reduce((sum1, sum2) => sum1 + sum2)
-            localStorage.setItem("amount", JSON.stringify(Total))
             return (Total)
         }
 

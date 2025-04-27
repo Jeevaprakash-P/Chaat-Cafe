@@ -14,9 +14,7 @@ const Whislist = () => {
   if (!JSON.parse(localStorage.getItem("card"))) {
     localStorage.setItem("card", JSON.stringify([]))
   }
-  if (!JSON.parse(localStorage.getItem("amount"))){
-    localStorage.setItem("amount" , JSON.stringify(0))
-  }
+ 
   
   let Amount = useSelector((state) => state.Amount)
   let dispatch = useDispatch()
