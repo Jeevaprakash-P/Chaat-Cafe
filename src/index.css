@@ -4,7 +4,7 @@
     margin: 0px;
     position: fixed;
     width: 100%;
-    z-index:2;
+    z-index: 2;
 }
 #navbarSupportedContent ul li .nav-link {
     position: relative;
@@ -19,7 +19,7 @@
     left: 15%;
     bottom: -3px;
     transform: scaleX(0);
-    transition: all 1s ease-out;
+    transition: all 0.5s linear;
 }
 #navbarSupportedContent ul li a:hover::before {
     transform: scaleX(1);
@@ -111,8 +111,10 @@
     justify-content: space-evenly;
     padding-top: 40px;
 }
+
 .card-img-top {
     position: relative;
+    cursor:pointer;
 }
 .Rating {
     position: absolute;
@@ -180,10 +182,10 @@
     height: 800px;
     padding: 20px;
 }
-.From-Compunet form{
+.From-Compunet form {
     display: flex;
     gap: 20px;
-    flex-direction:column;
+    flex-direction: column;
     width: 50%;
 }
 .whislist-page {
@@ -223,12 +225,32 @@
 }
 marquee {
     position: sticky;
-    top: 80px;
     z-index: 1;
 }
 .card:hover {
     transition: transulateY 1s linear;
     transform: translateY(-10px);
+}
+.Login-From-Compunet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.Login-form {
+    width: 40%;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+.Login-logo{
+    font-size: 80px;
+    position: absolute;
+    top: 3%;
+    left: 43%;
 }
 
 /* @media (min-width : 768px) and (max-width:1024px) {
@@ -241,14 +263,18 @@ marquee {
 @media (min-width : 300px) and (max-width:1023px) {
     .Home_First_Page {
         flex-direction: column;
-        height: 400px;
     }
     .Home_First_Page img {
         width: 100%;
-        height: 550px;
+        height: 600px;
         position: relative;
-        margin-top: -10px;
-        filter: blur(1px);
+        margin-top:0px;
+        filter: none;
+    }
+    .bg-img:hover {
+        width: 100%;
+        transform:none;
+        box-shadow: none
     }
     .shopname {
         position: absolute;
@@ -285,15 +311,12 @@ marquee {
         top: 88px;
     }
     .Discount {
-        display: flex;
-        align-items: center;
-        border: 1px double green;
-        width: max-content;
-        padding: 0px 10px;
-        border-radius: 10px;
-        margin-left: 10px;
+        padding: 0px 10px;   
     }
-   
+    marquee{
+       top: 13%;
+    }
+
     #card-Background {
         display: none;
     }
@@ -317,8 +340,14 @@ marquee {
         display: block;
         height: 400px;
     }
-    .From-Compunet form{
+    .From-Compunet form {
         width: 100%;
     }
-
+    
+    .Login-form {
+        width: 100%;
+        gap: 30px;
+        border: none;
+    }
+    
 }

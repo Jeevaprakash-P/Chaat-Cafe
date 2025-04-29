@@ -141,7 +141,7 @@ const Straters = () => {
               justifyContent: "center",
               alignItems: "center"
             }}>
-            <button className="Add_new_product_button btn" onClick={() => Navigate('/form')}>New Product</button>
+            <button className="Add_new_product_button btn" onClick={() => Navigate('/NewItems')}>New Product</button>
           </div>
         </div>
       </div>

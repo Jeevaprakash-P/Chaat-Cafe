@@ -8,11 +8,14 @@ import { TiStar } from "react-icons/ti";
 import { FiShoppingCart } from "react-icons/fi";
 import { Additems } from './Js-src/Slices';
 import Swal from 'sweetalert2'
+import { useNavigate } from "react-router-dom"
+
 
 
 
 const Sandwich = () => {
   let dispatch = useDispatch()
+  let Navigate = useNavigate();
   let { data, error, Loadding } = GetHook("http://localhost:4000/Sandwhich")
   let Sandwhich = useSelector((state) => state.Sandwhich)
   let Card = useSelector((state) => { return (state.Card) })
@@ -138,7 +141,7 @@ const Sandwich = () => {
               justifyContent: "center",
               alignItems: "center"
             }}>
-            <button className="Add_new_product_button btn" onClick={() => Navigate('/form')}>New Product</button>
+            <button className="Add_new_product_button btn" onClick={() => Navigate('/NewItems')}>New Product</button>
           </div>
         </div>
       </div>

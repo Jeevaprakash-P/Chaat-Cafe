@@ -8,10 +8,13 @@ import { Mosaic } from "react-loading-indicators"
 import { TiStar } from "react-icons/ti";
 import { FiShoppingCart } from "react-icons/fi";
 import Swal from 'sweetalert2'
+import { useNavigate } from "react-router-dom"
+
 
 
 const Pizza = () => {
   let dispatch = useDispatch()
+  let Navigate = useNavigate();
   let { data, error, Loadding } = GetHook("http://localhost:4000/Pizza")
   let PizzaItems = useSelector((state) => state.PizzaItems)
   let Card = useSelector((state) => { return (state.Card) })
@@ -141,7 +144,7 @@ const Pizza = () => {
               justifyContent: "center",
               alignItems: "center"
             }}>
-            <button className="Add_new_product_button btn" onClick={() => Navigate('/form')}>New Product</button>
+            <button className="Add_new_product_button btn" onClick={() => Navigate('/NewItems')}>New Product</button>
           </div>
         </div>
       </div>
